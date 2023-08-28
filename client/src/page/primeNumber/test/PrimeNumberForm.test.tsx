@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import PrimeContextContextProvider, { PrimeContext, PrimeContextType } from '../../../contexts/PrimeNumbersContext';
+import  { PrimeContext, PrimeContextType } from '../../../contexts/PrimeNumbersContext';
 import PrimeNumberForm from '../PrimeNumberForm';
 import React from 'react';
 import '@testing-library/jest-dom/extend-expect';
