@@ -10,7 +10,7 @@ export const  serverConfig:serverConfigType = {
       BASE_URL: 'http://localhost:8000/',
     },
     sandbox: {
-      BASE_URL: 'http://localhost:8000/',
+      BASE_URL: 'https://prime-endpoint.onrender.com/',
     },
  
   };

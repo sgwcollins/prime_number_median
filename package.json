@@ -6,7 +6,8 @@
       "start": "concurrently \"npm run server\" \"npm run client\"",
       "server": "cd server && npm start",
       "client": "cd client && npm start",
-      "build": "cd server && npm run build"
+      "build": "cd server && npm run build",
+      "test" : "cd client && npm run test && cd ../server && npm run test"
     },
     "dependencies": {
       "concurrently": "^6.2.1"
